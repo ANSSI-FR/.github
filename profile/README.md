@@ -28,6 +28,16 @@ L'ANSSI dispose de plusieurs organisations Github pour regrouper les différents
 - [DFIR-ORC](https://dfir-orc.github.io/) ([organisation Github](https://github.com/dfir-orc/)) est un ensemble d'outils de recherche de compromission, utilisés en particulier par la sous-direction des Opérations lors de traitement d'affaires
 - [FCSC-FR](https://github.com/FCSC-FR) regroupe les dépôts liés à l'organisation de la compétition _French CyberSecurity Challenge_ ([édition 2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024))
 - [Rusticata](https://github.com/Rusticata) est un ensemble de parseurs « sûrs » écrits en Rust, utilisés en particulier avec l'outil Suricata
+
+## Contact
+
+La politique de contact des mainteneurs dépend de chaque projet. Celle-ci peut-être explicitée dans les fichiers README, CONTRIBUTING, SECURITY ou éventuellement CONTACT de chaque dépôt. Il est aussi possible d'ouvrir des *issues* ou des *merge requests* mais chaque projet est libre de les prendre en compte ou non.
+
+Il est possible de contacter l'équipe en charge de l'open-source au travers de l'adresse [opensource@ssi.gouv.fr](mailto:opensource@ssi.gouv.fr) mais aucun support ne sera fourni au travers de ce moyen de contact.
+
+Pour tout autre demande, le lecteur est invité à se rendre sur la page [« contacts »](https://cyber.gouv.fr/contacter-lanssi) du site de l'ANSSI.
+
+En cas d'incident cyber, vous pouvez contacter le [CERT-FR](https://cyber.gouv.fr/en-cas-dincident).
  
 ## Projets archivés
 
