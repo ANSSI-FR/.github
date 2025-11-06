@@ -4,7 +4,7 @@
 
 L’investissement de l’[ANSSI](https://cyber.gouv.fr) – en tant que
 [contributeur logiciel libre](https://cyber.gouv.fr/open-source-lanssi) au sein
-de l'État - se veut pragmatique. Il répond à un réel enjeu de sécurité et de
+de l'État – se veut pragmatique. Il répond à un réel enjeu de sécurité et de
 souveraineté, pour protéger les biens communs et investir dans des technologies
 et des solutions d’avenir.
 
@@ -52,23 +52,36 @@ publique ;
   corriger des bugs (de sécurité en général, mais parfois fonctionnels) ou afin
 d'améliorer les projets, de façon plus ou moins importante.
 
-## Organisations ANSSI
+## Dépôts de l'ANSSI
 
-L'ANSSI dispose de plusieurs organisations Github pour regrouper les différents
-projets publiés:
+Si la plupart des dépôts de l'ANSSI sont hébergés dans l'organisation
+[ANSSI-FR](https://github.com/ANSSI-FR), un certain nombre sont hébergés dans
+d'autres organisations (regroupement par thématiques, collaborations avec
+d'autres entités, etc.)
 
-- [ANSSI-FR](https://github.com/ANSSI-FR) regroupe la plupart des projets
-  autonomes
 - [DFIR-ORC](https://dfir-orc.github.io/) ([organisation
   Github](https://github.com/dfir-orc/)) est un ensemble d'outils de recherche
-de compromission, utilisés en particulier par la sous-direction des Opérations
-lors de traitement d'affaires
+  de compromission, utilisés en particulier par la sous-direction des
+  Opérations lors de traitement d'affaires
 - [FCSC-FR](https://github.com/FCSC-FR) regroupe les dépôts liés à
   l'organisation de la compétition _French CyberSecurity Challenge_ ([édition
-2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024)), y compris le
-site d'archives [Hackropole](https://hackropole.fr)
+  2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024)), y compris
+  le site d'archives [Hackropole](https://hackropole.fr)
 - [Rusticata](https://github.com/Rusticata) est un ensemble de parseurs « sûrs
   » écrits en Rust, utilisés en particulier avec l'outil Suricata
+
+Le [laboratoire d'innovation](https://lab.cyber.gouv.fr/) de l'ANSSI développe
+des services en liens avec la [DINUM](https://numerique.gouv.fr) en particulier
+dans le cadre de l'initiative [BetaGouv](https://beta.gouv.fr/) d'incubation de
+services numériques. Ces services sont hébergés dans l'organisation Github
+BetaGouv:
+
+- [Mon Service Sécurisé](https://github.com/betagouv/mon-service-securise)
+- [Mes Services Cyber](https://github.com/betagouv/anssi-portail)
+- [Mon Aide Cyber](https://github.com/betagouv/mon-aide-cyber)
+- [Mon Espace NIS 2](https://github.com/betagouv/anssi-nis2)
+- [Mes Questions Cyber](https://github.com/betagouv/anssi-recommandations-cyber/)
+- [Demain Spécialiste Cyber](https://github.com/betagouv/anssi-demain-specialiste-cyber)
 
 ## Contact
 
