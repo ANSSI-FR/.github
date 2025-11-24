@@ -103,15 +103,22 @@ En cas d'incident cyber, vous pouvez contacter le
  
 ## Projets archivés
 
-L'ANSSI a publié par le passé un certain nombre de grands projets qui ne sont
-plus maintenus. On peut trouver en particulier:
+L'ANSSI a publié par le passé un certain nombre de projets qui ne sont plus
+activement maintenus mais qui sont toujours disponibles à des fins de
+références et inspiration.
 
+On peut trouver en particulier:
+
+
+- la liste des dépôts
+  [archivés](https://github.com/orgs/ANSSI-FR/repositories?q=archived%3Atrue)
+  de l'organisation ANSSI-FR
 - [Wookey](https://wookey-project.github.io/) (et [l'organisation Github
   correspondante](https://github.com/wookey-project))
 - [LEIA](https://github.com/cw-leia) (Lab Embedded ISO7816 Analyzer A Custom
   Smartcard Reader for the ChipWhisperer)
 - [CLIP OS](https://clip-os.org/fr/) ([organisation
   Github](https://github.com/clipos) et
-[archives](https://github.com/clipos-archive)) est un système d'exploitation
-durci sur base Linux visant des environnements multiniveaux (cohabitation
-d'environnement de différents niveaux de sensibilité)
+  [archives](https://github.com/clipos-archive)) était un système
+  d'exploitation durci sur base Linux visant des environnements multiniveaux
+  (cohabitation d'environnement de différents niveaux de sensibilité)
