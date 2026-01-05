@@ -1,56 +1,65 @@
 # ANSSI
+<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Texte alternatif" width="30%">
 
-## L'open-source à l'ANSSI
+Cet espace comprend les dépôts de différents projets open source maintenus par
+l'[ANSSI](https://cyber.gouv.fr).
 
-L’investissement de l’[ANSSI](https://cyber.gouv.fr) – en tant que
-[contributeur logiciel libre](https://cyber.gouv.fr/open-source-lanssi) au sein
-de l'État – se veut pragmatique. Il répond à un réel enjeu de sécurité et de
-souveraineté, pour protéger les biens communs et investir dans des technologies
-et des solutions d’avenir.
+## L'open source à l'ANSSI
 
-Cette démarche se fonde sur les possibilités inédites qu’offre l’open source en
-termes d’adaptation, de maîtrise, d’évaluation et de diffusion, à la condition
-d’y consacrer les ressources nécessaires. Pour l’ANSSI, l’open source permet de
-développer les compétences indispensables à la maîtrise de technologies clés et
-de les partager autour de cas d’usage spécifiques.
+La stratégie open source de l'ANSSI est détaillée sur son [site
+internet](https://cyber.gouv.fr/open-source-lanssi)
 
-Le logiciel libre facilite le partage des connaissances et des résultats,
-permet leur évaluation par les pairs, mais aussi de bénéficier des éventuelles
-contributions de la communauté et des acteurs du numérique.
+## Types de projets
 
-L’ANSSI s’investit ainsi dans le logiciel libre pour répondre à de multiples
-objectifs : élaborer des solutions adaptées à de nouveaux cas d’usage,
-sécuriser les composants de base les plus utilisés, mais également développer,
-entretenir et partager sa compétence et sa maîtrise des technologies clés du
-numérique.
+La stratégie identifie trois catégories de projets publiés sur les dépôts de
+code de l'ANSSI :
 
-Elle est à la fois utilisatrice de technologies open-source, mais aussi
-fortement contributrice.
+- les projets doctrinaux
+(![badge_catégorie_doctrinal](https://img.shields.io/badge/catégorie-doctrinal-%23e9c7e7))
+diffusant des éléments de doctrine de l'Agence ou en accompagnant la
+publication :
+	- démonstrateur technologique,
+	- implémentation de référence,
+	- code source ayant servi à réaliser un article scientifique ou à générer des
+données (artefacts de recherche),
+	- contenu illustrant concrètement des recommandations de l'Agence
+(« actionnables »)
+- les outils internes
+(![badge_catégorie_interne](https://img.shields.io/badge/catégorie-interne-%23d08fce)) :
+projets développés pour un besoin interne de l'ANSSI, publiés pour des raison
+de transparence ou par volonté de partager des ressources utiles à
+l'écosystème.
+- les outils externes
+(![badge_catégorie_externe](https://img.shields.io/badge/catégorie-externe-%23b556b6) :
+outils mis à disposition des bénéficiaires ou des partenaires de l'ANSSI (comme
+les CERT), accessibles directement ou à travers des services fournis pas
+l'Agence.
 
-L’agence est depuis longtemps impliquée dans de nombreux projets open-source,
-par les contributions de ses agents et la publication de plusieurs de ses
-outils. 
-La loi pour une République numérique de 2016 a fait des codes sources écrits
-par les administrations des données publiques, ayant vocation à être publiées.
-Nonobstant cette obligation (qui comporte certaines exceptions, par exemple
-pour des raisons de sécurité informatique), les publications de l'ANSSI peuvent
-se classer dans différentes catégories :
+## Degré d'ouverture
 
-- les preuves de concept, qui sont publiées en l'état, sans garantie de
-  maintenance ni de support. Elles ont servi de support à des travaux ponctuels
-(hackathon, écriture d'article, etc.), et sont publiées afin d'être utilisées
-par d'autres, par exemple pour reproduire des travaux publiés dans un article
-scientifique ;
-- les outils utiles au quotidien pour l'un ou l'autre des métiers de l'ANSSI
-  (opérationnel ou non), sont en général maintenus le temps qu'ils restent
-utiles en interne ou auprès de ses partenaires ;
-- les grands projets, emblématiques de l'engagement de l'agence pour l'open
-  source, pour lesquels l'ANSSI a cherché à élaborer une stratégie de
-publication, de coopération et de communication, ainsi  qu'une feuille de route
-publique ;
-- les contributions à des projets open-source existants, que ce soit pour
-  corriger des bugs (de sécurité en général, mais parfois fonctionnels) ou afin
-d'améliorer les projets, de façon plus ou moins importante.
+Le document de stratégie catégorise aussi les projets suivant leur « degré
+d'ouverture » sur la base de la
+[classification](https://guides.data.gouv.fr/autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment)
+élaborée par la DINUM :
+
+- 📘 Niveau A - contributif
+([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)) :
+le code source est publié, les contributions extérieures sont activement
+recherchées et traitées.
+- 📗 Niveau B - ouvert
+([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)) :
+le code source est publié, les contributions extérieures sont traitées mais non
+activement recherchées.
+- 📙 Niveau C - publié
+([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)) :
+le code source est publié mais les contributions extérieures ne sont pas
+traitées.
+
+Les projets doctrinaux et les outils internes sont habituellement au niveau C
+tandis que les outils externes sont habituellement au niveau B, avec un focus
+particulier sur les contributions ayant trait à la sécurité. Chaque projet peut
+préciser (par exemple dans un document `CONTRIBUTING`) les attentes que les
+contributeurs éventuelles peuvent avoir.
 
 ## Dépôts de l'ANSSI
 
@@ -59,22 +68,13 @@ Si la plupart des dépôts de l'ANSSI sont hébergés dans l'organisation
 d'autres organisations (regroupement par thématiques, collaborations avec
 d'autres entités, etc.)
 
-- [DFIR-ORC](https://dfir-orc.github.io/) ([organisation
-  Github](https://github.com/dfir-orc/)) est un ensemble d'outils de recherche
-  de compromission, utilisés en particulier par la sous-direction des
-  Opérations lors de traitement d'affaires
-- [FCSC-FR](https://github.com/FCSC-FR) regroupe les dépôts liés à
-  l'organisation de la compétition _French CyberSecurity Challenge_ ([édition
-  2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024)), y compris
-  le site d'archives [Hackropole](https://hackropole.fr)
-- [Rusticata](https://github.com/Rusticata) est un ensemble de parseurs « sûrs
-  » écrits en Rust, utilisés en particulier avec l'outil Suricata
+- [DFIR-ORC](https://dfir-orc.github.io/) ([organisation Github
+organization](https://github.com/dfir-orc/)) est un ensemble d'outils de
+recherche de compromission, utilisés en particulier par la sous-direction des
+Opérations lors de traitement d'affaires
+- [FCSC-FR](https://github.com/FCSC-FR) regroupe les dépôts liés à l'organisation de la compétition French CyberSecurity Challenge ([édition 2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024), y compris le site d'archives [Hackropole](https://hackropole.fr)
 
-Le [laboratoire d'innovation](https://lab.cyber.gouv.fr/) de l'ANSSI développe
-des services en liens avec la [DINUM](https://numerique.gouv.fr) en particulier
-dans le cadre de l'initiative [BetaGouv](https://beta.gouv.fr/) d'incubation de
-services numériques. Ces services sont hébergés dans l'organisation Github
-BetaGouv:
+Le [laboratoire d'innovation](https://lab.cyber.gouv.fr) de l'ANSSI développe des services en liens avec la DINUM en particulier dans le cadre de l'initiative [BetaGouv](https://beta.gouv.fr) d'incubation de services numériques. Ces services sont hébergés dans l'organisation Github BetaGouv:
 
 - [Mon Service Sécurisé](https://github.com/betagouv/mon-service-securise)
 - [Mes Services Cyber](https://github.com/betagouv/anssi-portail)
@@ -86,21 +86,21 @@ BetaGouv:
 ## Contact
 
 La politique de contact des mainteneurs dépend de chaque projet. Celle-ci
-peut-être explicitée dans les fichiers README, CONTRIBUTING, SECURITY ou
-éventuellement CONTACT de chaque dépôt. Il est aussi possible d'ouvrir des
-*issues* ou des *merge requests* mais chaque projet est libre de les prendre en
-compte ou non.
+peut-être explicitée dans les fichiers `README`, `CONTRIBUTING`, `SECURITY` ou
+éventuellement `CONTACT` de chaque dépôt. Il est aussi possible d'ouvrir des
+issues ou des merge requests mais chaque projet est libre de les prendre en
+compte ou non (comme explicité dans le document `CONTRIBUTING`).
 
-Il est possible de contacter l'équipe en charge de l'open-source au travers de
-l'adresse [opensource@ssi.gouv.fr](mailto:opensource@ssi.gouv.fr) mais aucun
-support ne sera fourni au travers de ce moyen de contact.
+Il est possible de contacter l'équipe en charge de l'open-source à l'ANSSI au
+travers de l'adresse [opensource@ssi.gouv.fr](mailto:opensource@ssi.gouv.fr)
+mais aucun support ne sera fourni au travers de ce moyen de contact.
 
 Pour tout autre demande, le lecteur est invité à se rendre sur la page
 [« contacts »](https://cyber.gouv.fr/contacter-lanssi) du site de l'ANSSI.
 
 En cas d'incident cyber, vous pouvez contacter le
 [CERT-FR](https://cyber.gouv.fr/en-cas-dincident).
- 
+
 ## Projets archivés
 
 L'ANSSI a publié par le passé un certain nombre de projets qui ne sont plus
@@ -109,16 +109,14 @@ références et inspiration.
 
 On peut trouver en particulier:
 
-
-- la liste des dépôts
-  [archivés](https://github.com/orgs/ANSSI-FR/repositories?q=archived%3Atrue)
-  de l'organisation ANSSI-FR
-- [Wookey](https://wookey-project.github.io/) (et [l'organisation Github
-  correspondante](https://github.com/wookey-project))
+- la [liste](https://github.com/orgs/ANSSI-FR/repositories?q=archived%3Atrue)
+  des projets archivés de l'organisation ANSSI-FR
+- [Wookey](https://wookey-project.github.io/) ([organisation
+  Github](https://github.com/wookey-project))
 - [LEIA](https://github.com/cw-leia) (Lab Embedded ISO7816 Analyzer A Custom
   Smartcard Reader for the ChipWhisperer)
 - [CLIP OS](https://clip-os.org/fr/) ([organisation
-  Github](https://github.com/clipos) et
+  Github](https://github.com/clipos) et ses
   [archives](https://github.com/clipos-archive)) était un système
   d'exploitation durci sur base Linux visant des environnements multiniveaux
   (cohabitation d'environnement de différents niveaux de sensibilité)
