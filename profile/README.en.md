@@ -12,23 +12,24 @@ ANSSI open source strategy is detailed on the
 
 ## Project categories
 
-The strategy recognizes three categories for the projects hosted on code repositories:
+The strategy recognizes three categories for the projects maintained by the
+agency:
 
 - **doctrinal projects**
   (![badge_catégorie_doctrinal](https://img.shields.io/badge/catégorie-doctrinal-%23e9c7e7))
   sharing doctrinal elements or published alongwhile:
-    - technological demonstrator,
-    - reference implcementation,
+    - technological demonstrators,
+    - reference implcementations,
     - source code used to write a scientific paper or generate data (research
       artifacts),
     - content exposing tangible recommandations from the Agency
-      ("actionables"),
+      ("actionables").
 - **internal tools**
   (![badge_catégorie_interne](https://img.shields.io/badge/catégorie-interne-%23d08fce)):
   projects developed for an internal need and published for transparency reason
   or as a will to share resources useful to the cyber ecosystem.
 - **external tools**
-  (![badge_catégorie_externe](https://img.shields.io/badge/catégorie-externe-%23b556b6)) :
+  (![badge_catégorie_externe](https://img.shields.io/badge/catégorie-externe-%23b556b6)):
   tools shared with beneficiaries and partners (like CERTS), available directly
   or through services provided by the agency.
 
@@ -36,14 +37,19 @@ The strategy recognizes three categories for the projects hosted on code reposit
 
 The strategy also classifies projects using an "openness level" based on the
 [classification](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)
-done by DINUM (French Government OSPO)
+done by DINUM (French government OSPO)
 
 - 📘 Level A - **contributive**
-  ([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)): source code is published, external contributions actively seeked and handled.
+  ([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)):
+  source code is published, external contributions are actively seeked and
+  handled.
 - 📗 Level B - **open**
-  ([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)): source code is published, external contributions are handled but not actively seeked
+  ([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)):
+  source code is published, external contributions are handled but not actively
+  seeked.
 - 📙 Level C - **published**
-  ([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)): source code is published but external contributions aren't treated
+  ([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)):
+  source code is published but external contributions aren't treated.
 
 Doctrinal projects and internal tools are usually at level C while external
 tools are at level B. Each project managers can elaborate (in a
@@ -58,15 +64,15 @@ in other places (grouped by topic, or for collaboration with other entities):
 
 - [DFIR-ORC](https://dfir-orc.github.io/) ([Github
   organization](https://github.com/dfir-orc/)) is a set of digital forensics
-  tools, especially used by the CERT when investigating incidents
-- [FCSC-FR](https://github.com/FCSC-FR) hosts repositories used for the 
- _French CyberSecurity Challenge_ CTF competition ([2024
- edition](https://cyber.gouv.fr/france-cybersecurity-challenge-2024)),
- including the [Hackropole](https://hackropole.fr) archive website)
+  tools, especially used by the CERT when investigating incidents.
+- [FCSC-FR](https://github.com/FCSC-FR) hosts repositories used for the _French
+  CyberSecurity Challenge_ CTF competition ([2024
+  edition](https://cyber.gouv.fr/france-cybersecurity-challenge-2024)),
+  including the [Hackropole](https://hackropole.fr) archive website)
 
 The [innovation lab](https://lab.cyber.gouv.fr/) also develops online services
 under the [BetaGouv](https://beta.gouv.fr/) initiative. Those projects are
-hosted in the BetaGouv organization:
+hosted in the [BetaGouv](https://github.com/betagouv) organization:
 
 - [Mon Service Sécurisé](https://github.com/betagouv/mon-service-securise)
 - [Mes Services Cyber](https://github.com/betagouv/anssi-portail)
@@ -87,7 +93,7 @@ The ANSSI open source program office can be reached using the
 support will be provided.
 
 For any other request, readers can use the
-[contact](https://cyber.gouv.fr/contacter-lanssi) page on ANSSI website.
+[Contact](https://cyber.gouv.fr/contact-acces/contact/) page on ANSSI website.
 
 In case of cyber incident, please contact [CERT-FR](https://cyber.gouv.fr/en-cas-dincident).
  
@@ -96,7 +102,7 @@ In case of cyber incident, please contact [CERT-FR](https://cyber.gouv.fr/en-cas
 A number of older projects aren't maintained anymore but are available for reference:
 
 - archived repository [list](https://github.com/orgs/ANSSI-FR/repositories?q=archived%3Atrue)
-- [Wookey](https://wookey-project.github.io/) (and [Github
+- [Wookey](https://wookey-project.github.io/) [Github
   organization](https://github.com/wookey-project))
 - [LEIA](https://github.com/cw-leia) (Lab Embedded ISO7816 Analyzer A Custom
   Smartcard Reader for the ChipWhisperer)

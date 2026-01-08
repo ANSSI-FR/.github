@@ -61,7 +61,7 @@ Les projets doctrinaux et les outils internes sont habituellement au niveau C
 tandis que les outils externes sont habituellement au niveau B, avec un focus
 particulier sur les contributions ayant trait à la sécurité. Chaque projet peut
 préciser (par exemple dans un document `CONTRIBUTING`) les attentes que les
-contributeurs éventuelles peuvent avoir.
+contributeurs éventuels peuvent avoir.
 
 ## Dépôts de l'ANSSI
 
@@ -70,13 +70,20 @@ Si la plupart des dépôts de l'ANSSI sont hébergés dans l'organisation
 d'autres organisations (regroupement par thématiques, collaborations avec
 d'autres entités, etc.)
 
-- [DFIR-ORC](https://dfir-orc.github.io/) ([organisation Github
-organization](https://github.com/dfir-orc/)) est un ensemble d'outils de
-recherche de compromission, utilisés en particulier par la sous-direction des
-Opérations lors de traitement d'affaires
-- [FCSC-FR](https://github.com/FCSC-FR) regroupe les dépôts liés à l'organisation de la compétition French CyberSecurity Challenge ([édition 2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024), y compris le site d'archives [Hackropole](https://hackropole.fr)
+- [DFIR-ORC](https://dfir-orc.github.io/) ([organisation
+  Github](https://github.com/dfir-orc/)) est un ensemble d'outils de recherche
+  de compromission, utilisés en particulier par la sous-direction des
+  Opérations lors de traitement d'incidents cyber.
+- [FCSC-FR](https://github.com/FCSC-FR) regroupe les dépôts liés à
+  l'organisation de la compétition French CyberSecurity Challenge ([édition
+  2024](https://cyber.gouv.fr/france-cybersecurity-challenge-2024)), y compris
+  le site d'archives [Hackropole](https://hackropole.fr).
 
-Le [laboratoire d'innovation](https://lab.cyber.gouv.fr) de l'ANSSI développe des services en liens avec la DINUM en particulier dans le cadre de l'initiative [BetaGouv](https://beta.gouv.fr) d'incubation de services numériques. Ces services sont hébergés dans l'organisation Github BetaGouv:
+Le [laboratoire d'innovation](https://lab.cyber.gouv.fr) de l'ANSSI développe
+des services en lien avec la DINUM, en particulier dans le cadre de
+l'initiative [BetaGouv](https://beta.gouv.fr) d'incubation de services
+numériques. Ces services sont hébergés dans l'organisation Github
+[BetaGouv](https://github.com/betagouv):
 
 - [Mon Service Sécurisé](https://github.com/betagouv/mon-service-securise)
 - [Mes Services Cyber](https://github.com/betagouv/anssi-portail)
@@ -90,7 +97,7 @@ Le [laboratoire d'innovation](https://lab.cyber.gouv.fr) de l'ANSSI développe d
 La politique de contact des mainteneurs dépend de chaque projet. Celle-ci
 peut-être explicitée dans les fichiers `README`, `CONTRIBUTING`, `SECURITY` ou
 éventuellement `CONTACT` de chaque dépôt. Il est aussi possible d'ouvrir des
-issues ou des merge requests mais chaque projet est libre de les prendre en
+*issues* ou des *pull requests* mais chaque projet est libre de les prendre en
 compte ou non (comme explicité dans le document `CONTRIBUTING`).
 
 Il est possible de contacter l'équipe en charge de l'open-source à l'ANSSI au
@@ -98,7 +105,8 @@ travers de l'adresse [opensource@ssi.gouv.fr](mailto:opensource@ssi.gouv.fr)
 mais aucun support ne sera fourni au travers de ce moyen de contact.
 
 Pour tout autre demande, le lecteur est invité à se rendre sur la page
-[« contacts »](https://cyber.gouv.fr/contacter-lanssi) du site de l'ANSSI.
+« [Contacts](https://cyber.gouv.fr/contact-acces/contact/) » du site de
+l'ANSSI.
 
 En cas d'incident cyber, vous pouvez contacter le
 [CERT-FR](https://cyber.gouv.fr/en-cas-dincident).
