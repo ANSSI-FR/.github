@@ -3,7 +3,7 @@
 
 This organization hosts repositories for various open source project developed by [ANSSI](https://cyber.gouv.fr).
 
-La version originale française de ce fichier est accessible [ici](README.md)
+*Les francophones peuvent consulter la [version originale](README.md) de ce fichier.*
 
 ## Free and open-source software at ANSSI
 
