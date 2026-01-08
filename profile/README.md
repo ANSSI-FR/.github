@@ -4,7 +4,7 @@
 Cet espace comprend les dépôts de différents projets open source maintenus par
 l'[ANSSI](https://cyber.gouv.fr).
 
-*English readers can check the [localized](README.en.md) version of this README.
+*English readers can check the [localized](README.en.md) version of this README.*
 
 ## L'open source à l'ANSSI
 
