@@ -35,15 +35,15 @@ The strategy recognizes three categories for the projects hosted on code reposit
 ## Openness level
 
 The strategy also classifies projects using an "openness level" based on the
-[classification](https://guides.data.gouv.fr/autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment)
+[classification](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)
 done by DINUM (French Government OSPO)
 
 - 📘 Level A - **contributive**
-  ([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)): source code is published, external contributions actively seeked and handled.
+  ([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)): source code is published, external contributions actively seeked and handled.
 - 📗 Level B - **open**
-  ([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)): source code is published, external contributions are handled but not actively seeked
+  ([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture): source code is published, external contributions are handled but not actively seeked
 - 📙 Level C - **published**
-  ([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)): source code is published but external contributions aren't treated
+  ([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)): source code is published but external contributions aren't treated
 
 Doctrinal projects and internal tools are usually at level C while external
 tools are at level B. Each project managers can elaborate (in a

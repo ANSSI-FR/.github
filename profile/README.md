@@ -37,25 +37,25 @@ outils mis à disposition des bénéficiaires ou des partenaires de l'ANSSI (com
 les CERT), accessibles directement ou à travers des services fournis pas
 l'Agence.
 
-## Degré d'ouverture
+## Niveau d'ouverture
 
-Le document de stratégie catégorise aussi les projets suivant leur « degré
+Le document de stratégie catégorise aussi les projets suivant leur « niveau
 d'ouverture » sur la base de la
-[classification](https://guides.data.gouv.fr/autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment)
+[classification](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)
 élaborée par la DINUM :
 
 - 📘 Niveau A - contributif
-([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)) :
-le code source est publié, les contributions extérieures sont activement
-recherchées et traitées.
+  ([![badge_ouverture_A](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture) :
+  le code source est publié, les contributions extérieures sont activement
+  recherchées et traitées.
 - 📗 Niveau B - ouvert
-([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)) :
-le code source est publié, les contributions extérieures sont traitées mais non
-activement recherchées.
+  ([![badge_ouverture_B](https://img.shields.io/badge/code.gouv.fr-ouvert-green)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture) :
+  le code source est publié, les contributions extérieures sont traitées mais
+  non activement recherchées.
 - 📙 Niveau C - publié
-([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)) :
-le code source est publié mais les contributions extérieures ne sont pas
-traitées.
+  ([![badge_ouverture_C](https://img.shields.io/badge/code.gouv.fr-publié-orange)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture) :
+  le code source est publié mais les contributions extérieures ne sont pas
+  traitées.
 
 Les projets doctrinaux et les outils internes sont habituellement au niveau C
 tandis que les outils externes sont habituellement au niveau B, avec un focus
