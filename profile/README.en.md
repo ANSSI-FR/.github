@@ -81,6 +81,19 @@ hosted in the [BetaGouv](https://github.com/betagouv) organization:
 - [Mes Questions Cyber](https://github.com/betagouv/anssi-recommandations-cyber/)
 - [Demain Spécialiste Cyber](https://github.com/betagouv/anssi-demain-specialiste-cyber)
 
+## Security assessments of open source software
+
+Since 2017, ANSSI has been conducting security assessments of open source software. These
+assessments may take two forms. They may involve submitting an open source software product
+to the process leading to the [First Level Security Certification](https://cyber.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/comprendre-levaluation-de-securite/certification-de-produits/referentiel-dexigences-pour-la-certification/documents-applicables-certification-de-securite-de-premier-niveau/) (CSPN), a French certification 
+scheme that is part of ANSSI’s Security Visa framework. Alternatively, they may consist of 
+tailored security audits, which do not result in the issuance of a Security Visa but are intended
+to provide cybersecurity professionals with an assessment of the robustness of an open source 
+software product, in order to support their operational activities (information system 
+accreditation process, risk analyses, etc.).
+
+[List of open source software security assessments funded by ANSSI](evaluations.md)
+
 ## Contact
 
 Contact policy depends on each project and can be explicited in the `README`,
