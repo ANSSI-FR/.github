@@ -92,6 +92,20 @@ numériques. Ces services sont hébergés dans l'organisation Github
 - [Mes Questions Cyber](https://github.com/betagouv/anssi-recommandations-cyber/)
 - [Demain Spécialiste Cyber](https://github.com/betagouv/anssi-demain-specialiste-cyber)
 
+## Evaluations de sécurité de logiciels open source
+
+L’ANSSI mène depuis 2017 des évaluations de sécurité de logiciels open source. Ces 
+évaluations peuvent prendre deux formes. Soit soumettre un logiciel open source au 
+processus devant mener à l’obtention de la [Certification de Sécurité de Premier Niveau]
+(https://cyber.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/comprendre-levaluation-de-securite/certification-de-produits/presentation-certification-cspn/)
+(« CSPN »), schéma français faisant partie de la famille des Visas de sécurité de l’ANSSI.
+Soit des audits « à façon » qui ne donnent pas lieu à la délivrance d’un Visa de sécurité
+mais dont les résultats ont pour vocation de donner un aperçu de la robustesse d’un logiciel
+open source aux professionnels de la cybersécurité pour les aider concrètement dans leurs
+activités opérationnelles (dossier d’homologation, analyse de risque…).
+
+[Liste des évaluations de sécurité de logiciels open source financées par l'ANSSI](evaluations.md)
+
 ## Contact
 
 La politique de contact des mainteneurs dépend de chaque projet. Celle-ci
