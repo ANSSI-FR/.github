@@ -6,3 +6,16 @@ https://cyber.gouv.fr/enjeux-technologiques/open-source/
   created: 2026-01-23
   floss_policy: https://cyber.gouv.fr/enjeux-technologiques/open-source/
   country: FR
+  code:
+    - https://github.com/ANSSI-FR
+    - https://github.com/DFIR-ORC
+    - https://github.com/betagouv/mon-service-securise
+    - https://github.com/betagouv/anssi-portail
+    - https://github.com/betagouv/mon-aide-cyber
+    - https://github.com/betagouv/anssi-nis2
+    - https://github.com/betagouv/anssi-recommandations-cyber/
+    - https://github.com/betagouv/anssi-demain-specialiste-cyber
+    - https://github.com/clipos
+    - https://github.com/clipos-archive
+    - https://github.com/wookey-project
+    - https://github.com/cw-leia
