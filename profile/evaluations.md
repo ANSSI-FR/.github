@@ -2,6 +2,10 @@
 
 *"Le succès n'est pas final, l'échec n'est pas fatal. C'est le courage de continuer qui compte."* Winston Churchill
 
+<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Texte alternatif" width="30%">
+
+Pour une version plus lisible de cette page, cliquer [ici](https://anssi-fr.github.io/evaluations.html).
+
 
 Chaque année, l’ANSSI sélectionne des logiciels open source afin de les soumettre à des audits de sécurité « à façon » 
 ou à des évaluations de sécurité conformes au schéma de certification CSPN, avec pour objectifs primordiaux de renforcer
@@ -27,7 +31,7 @@ sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/do
 
 | Année* | Logiciel | Type d’évaluation | Status CSPN | Résultats |
 | --- | --- | --- | --- | --- |
-| 2025 | **Sentry** [[dépôt](https://github.com/outpost-os/sentry-kernel)] | CSPN | n.a. | Début de l'évaluation en mars 2026  |
+| 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Début de l'évaluation en mars 2026  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. | Evaluation en cours  |
 | 2025 | **Vault** [[dépôt](https://github.com/hashicorp/vault)] | Audit | n.a. | Evaluation en cours  |
 | 2025 | **HAProxy** [[dépôt](https://github.com/haproxy/haproxy)] [[SILL](https://code.gouv.fr/sill/detail?name=HAProxy)] | Audit | n.a. | Aucune vulnérabilité identifiée  <br> [Blog-post CESTI Almond (ex Amossys)](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-haproxy/) |
