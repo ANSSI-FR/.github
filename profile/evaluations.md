@@ -2,9 +2,9 @@
 
 *"Le succès n'est pas final, l'échec n'est pas fatal. C'est le courage de continuer qui compte."* Winston Churchill
 
-<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Texte alternatif" width="30%">
+<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Logo ANSSI" width="30%">
 
-Pour une version plus lisible de cette page, cliquer [ici](https://anssi-fr.github.io/evaluations.html).
+Pour une version plus lisible de cette page, cliquer [ici](evaluations.md).
 
 
 Chaque année, l’ANSSI sélectionne des logiciels open source afin de les soumettre à des audits de sécurité « à façon » 
