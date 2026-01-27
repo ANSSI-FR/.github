@@ -103,7 +103,7 @@ mais dont les résultats ont pour vocation de donner un aperçu de la robustesse
 open source aux professionnels de la cybersécurité pour les aider concrètement dans leurs
 activités opérationnelles (dossier d’homologation, analyse de risque…).
 
-[Liste des évaluations de sécurité de logiciels open source financées par l'ANSSI](evaluations.md)
+[Liste des évaluations de sécurité de logiciels open source financées par l'ANSSI](https://anssi-fr.github.io/evaluations.html)
 
 ## Contact
 

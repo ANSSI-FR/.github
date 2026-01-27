@@ -92,7 +92,7 @@ to provide cybersecurity professionals with an assessment of the robustness of a
 software product, in order to support their operational activities (information system 
 accreditation process, risk analyses, etc.).
 
-[List of open source software security assessments funded by ANSSI](evaluations.md) (in french)
+[List of open source software security assessments funded by ANSSI](https://anssi-fr.github.io/evaluations.html) (in french)
 
 ## Contact
 
