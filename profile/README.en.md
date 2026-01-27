@@ -1,5 +1,5 @@
 # ANSSI
-<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Texte alternatif" width="30%">
+<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="ANSSI" width="30%">
 
 This organization hosts repositories for various open source project developed by [ANSSI](https://cyber.gouv.fr).
 

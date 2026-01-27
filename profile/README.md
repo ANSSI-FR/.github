@@ -1,5 +1,5 @@
 # ANSSI
-<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Texte alternatif" width="30%">
+<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="ANSSI" width="30%">
 
 Cet espace comprend les dépôts de différents projets open source maintenus par
 l'[ANSSI](https://cyber.gouv.fr).
