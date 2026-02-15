@@ -4,7 +4,7 @@
 
 <img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Logo ANSSI" width="30%">
 
-Pour une version plus lisible de cette page, cliquer [ici](evaluations.md).
+La version HTML de cette page se trouve [ici](https://anssi-fr.github.io/evaluations.html).
 
 
 Chaque année, l’ANSSI sélectionne des logiciels open source afin de les soumettre à des audits de sécurité « à façon » 
