@@ -4,7 +4,7 @@
 
 <img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="Logo ANSSI" width="30%">
 
-La version HTML de cette page se trouve [ici](https://anssi-fr.github.io/evaluations.html).
+Pour une version plus lisible de cette page, cliquer [ici](evaluations.md).
 
 
 Chaque année, l’ANSSI sélectionne des logiciels open source afin de les soumettre à des audits de sécurité « à façon » 
@@ -19,7 +19,7 @@ recommandations détaillées pour corriger les vulnérabilités identifiées ;
 de l'Agence et plus généralement, à l'écosystème numérique).
 
 Ces évaluations de sécurité sont pilotées et accompagnés  par des experts ANSSI et réalisées par des experts des Centres
-d’Evaluation de la Sécurité des Technologies de l’Information ([CESTI](https://cyber.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/evaluer-les-produits-et-services/centres-evaluation/)).
+d’Evaluation de la Sécurité des Technologies de l’Information ([CESTI](https://cyber.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/evaluer-les-produits-et-services/centres-evaluation/)). Les résultats des évaluations sont mis à la disposition des développeurs afin de corriger les éventuelles vulnérabilités identifiées. Après une période d’attente raisonnable, dans le cadre d’une procédure de divulgation responsable, l'ANSSI publie les résultats.
 
 Le tableau ci-après liste les travaux de l'ANSSI et donne les pointeurs vers les livrables associés à chaque évaluation.
 Ces informations peuvent être utiles à des professionnels de la cybersécurité pour les aider à se faire une idée du niveau 
@@ -34,7 +34,7 @@ sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/do
 | 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Début de l'évaluation en mars 2026  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. | Evaluation en cours  |
 | 2025 | **Vault** [[dépôt](https://github.com/hashicorp/vault)] | Audit | n.a. | Evaluation en cours  |
-| 2025 | **HAProxy** [[dépôt](https://github.com/haproxy/haproxy)] [[SILL](https://code.gouv.fr/sill/detail?name=HAProxy)] | Audit | n.a. | Aucune vulnérabilité identifiée  <br> [Blog-post CESTI Almond (ex Amossys)](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-haproxy/) |
+| 2025 | **HAProxy** [[dépôt](https://github.com/haproxy/haproxy)] [[SILL](https://code.gouv.fr/sill/detail?name=HAProxy)] | Audit | n.a. | Aucune vulnérabilité identifiée <br> [Blog-post CESTI Almond (ex Amossys)](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-haproxy/) <br> [Blog-post HAProxy Technologies](https://www.haproxy.com/blog/haproxy-security-audit-results) |
 | 2025 | **step-ca** [[dépôt](https://github.com/smallstep/certificates)] | Audit | n.a. | [1 vulnérabilité identifiée](https://github.com/smallstep/certificates/security/advisories/GHSA-j7c9-79x7-8hpr)  ([CVE-2025-66406](https://nvd.nist.gov/vuln/detail/CVE-2025-66406)) <br> [Blog-post CESTI Amossys](https://www.amossys.fr/insights/blog-technique/cve-2025-66406-arbitrary-ssh-certificate-revocation-on-step-ca/)|
 | 2025 | **fuzzysully** [[dépôt](https://github.com/ANSSI-FR/fuzzysully)] | n.a. | n.a. | Développement et publication par l'ANSSI d'un fuzzer OPC-UA.   |
 | 2024 | **CAS** [[dépôt](https://github.com/apereo/cas)] [[SILL](https://code.gouv.fr/sill/detail?name=Apereo%20CAS)] | Audit | n.a. | 4 vulnérabilités identifiées <br> [Blog-post CESTI Amossys](https://www.amossys.fr/insights/blog-technique/responsible-disclosure-of-vulnerabilities-found-on-apereo-cas/) |
