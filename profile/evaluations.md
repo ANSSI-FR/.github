@@ -29,7 +29,7 @@ sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/do
 
 
 
-| Année* | Logiciel | Type d’évaluation | Status CSPN | Résultats |
+| Année* | Logiciel | Type d’évaluation | Statut CSPN | Résultats |
 | --- | --- | --- | --- | --- |
 | 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Début de l'évaluation en mars 2026  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. | Evaluation en cours  |
