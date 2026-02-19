@@ -11,6 +11,18 @@ l'[ANSSI](https://cyber.gouv.fr).
 La stratégie open source de l'ANSSI est détaillée sur son [site
 internet](https://cyber.gouv.fr/open-source-lanssi)
 
+## Actualités
+
+### 18/02/2026: Publication de la bibliographie ANSSI
+
+[Publication](https://github.com/ANSSI-FR/bibliotex) de la bibliographie des
+publications de l'ANSSI au format BibTeX. Cette bibliographie contient les
+références vers les guides techniques, recommandations, référentiels de
+qualifications, instructions (inter)ministérielles, etc., publiées sur le [site
+institutionnel](https://cyber.gouv.fr), ainsi que les états de la menace et
+rapports d' incidents publiés sur le site du
+[CERT-FR](https://cert.ssi.gouv.fr).
+
 ## Types de projets
 
 La stratégie identifie trois catégories de projets publiés sur les dépôts de
