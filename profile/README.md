@@ -13,7 +13,15 @@ internet](https://cyber.gouv.fr/open-source-lanssi)
 
 ## Actualités
 
-### 18/02/2026: Publication de la bibliographie ANSSI
+### 20/02/2026 : Publication d'un rapport d'évaluation du produit MLA
+
+[Publication](https://github.com/ANSSI-FR/MLA/blob/main/doc/20260130-mla-security-assessment.pdf) 
+d'un rapport technique d'évaluation de la sécurité du produit 
+[Multi Layer Archive](https://github.com/ANSSI-FR/MLA) (MLA) suite à une analyse conduite par
+le CESTI [Synacktiv](https://www.synacktiv.com/). *--> Plus d'informations sur les [évaluations de 
+sécurité](https://github.com/fb-anssi/.github-anssi/blob/main/profile/evaluations.md) financées par l'ANSSI.*
+
+### 18/02/2026 : Publication de la bibliographie ANSSI
 
 [Publication](https://github.com/ANSSI-FR/bibliotex) de la bibliographie des
 publications de l'ANSSI au format BibTeX. Cette bibliographie contient les
