@@ -13,6 +13,13 @@ internet](https://cyber.gouv.fr/open-source-lanssi)
 
 ## Actualités
 
+### 21/05/2026 : Publication d'outils forensic DFIR-OGRE
+
+L'ANSSI a mis en ligne [DFIR-OGRE](https://github.com/ANSSI-FR/DFIR-OGRE), un
+outil permettant d'extraire les artefacts Windows d'une archive
+[DFIR-ORC](https://github.com/DFIR-ORC/DFIR-ORC) et de les injecter dans une
+base de donnée comme Splunk ou ELK.
+
 ### 17/03/2026 : Publication d'outils d'aide au durcissement de configuration Linux
 
 L'ANSSI a
