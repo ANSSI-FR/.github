@@ -8,7 +8,7 @@ This organization hosts repositories for various open source project developed b
 ## Free and open-source software at ANSSI
 
 ANSSI open source strategy is detailed on the
-[website](https://cyber.gouv.fr/open-source-lanssi)
+[website](https://cyber.gouv.fr/en/technological-and-cybersecurity-challenges/open-source/)
 
 ## News
 
