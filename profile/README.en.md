@@ -8,7 +8,16 @@ This organization hosts repositories for various open source project developed b
 ## Free and open-source software at ANSSI
 
 ANSSI open source strategy is detailed on the
-[website](https://cyber.gouv.fr/open-source-lanssi)
+[website](https://cyber.gouv.fr/en/technological-and-cybersecurity-challenges/open-source/)
+
+## News
+
+### 21/05/2026: Publication of forensic utility DFIR-OGRE
+
+[DFIR-OGRE](https://github.com/ANSSI-FR/DFIR-OGRE) is a command‑line utility
+that extracts windows forensic artefact from
+[DFIR-ORC](https://github.com/DFIR-ORC/dfir-orc) archives into structured data
+that can be consumed by Splunk, ELK or other databases.
 
 ## Project categories
 
