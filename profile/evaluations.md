@@ -46,9 +46,9 @@ sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/do
 | 2022 | **OpenSSH** [[dépôt](https://github.com/openssh)] | Audit | n.a. |   |
 | 2022 | **nftables** [[web](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-certificat.pdf) <br> [Cible de sécurité](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-cible.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-rapport.pdf) |   |
 | 2022 | **cert-manager** [[dépôt](https://github.com/cert-manager/cert-manager)] | CSPN | ⚠️ Abandon |   |
-| 2021 | **Sudo** [[dépôt](https://github.com/sudo-project/sudo)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
+| 2021 | **Sudo** [[dépôt](https://github.com/sudo-project/sudo)] | CSPN | ❌ Pas de certificat à l’issue du processus | 1 vulnérabilité identifiée ([CVE-2026-3605](https://www.cve.org/CVERecord?id=CVE-2026-3605), [CERTFR-2023-AVI-0043](https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0043/)) et corrigée ([1.9.12p2](https://www.sudo.ws/getting/download/))   |
 | 2021 | **Belenios** [[dépôt](https://github.com/glondu/belenios)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
-| 2021 | **Secretin** [[dépôt](https://github.com/secretin/secretin-app)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
+| 2021 | **Secretin** [[dépôt](https://github.com/secretin/secretin-app)] | CSPN | ❌ Pas de certificat à l’issue du processus | [Security assessment report](https://github.com/secretin/secretin-server/wiki/Lexfo-CSPN-report-requested-by-ANSSI) (CESTI [Lexfo](https://lexfo.fr/)) |
 | 2021 | **KeePass** [[SILL](https://code.gouv.fr/sill/detail?name=KeePass)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2019 | **S20PC** [[dépôt](https://github.com/monate/s2opc)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2019 | **strongSwan** [[dépôt](https://github.com/strongswan/strongswan)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
