@@ -31,6 +31,11 @@ sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/do
 
 | Année* | Logiciel | Type d’évaluation | Statut CSPN | Résultats |
 | --- | --- | --- | --- | --- |
+| 2026 | **BusyBox** [[web](https://busybox.net/)] | Audit | n.a. | Phase de cadrage  |
+| 2026 | **Zabbix** [[web](https://www.zabbix.com/fr)] | Audit | n.a. | Phase de cadrage  |
+| 2026 | **OPNsense** [[web](https://opnsense.org/)] | Audit | n.a. | Phase de cadrage  |
+| 2026 | **tac_plus-ng** [[dépôt](https://github.com/christian-becker/tac_plus-ng)] | Audit | n.a. | Phase de cadrage  |
+| 2026 | **LemonLDAP::NG** [[web](https://lemonldap-ng.org/)] | Audit | n.a. | Phase de cadrage  |
 | 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Début de l'évaluation en mars 2026  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. | Evaluation en cours  |
 | 2025 | **Vault** [[dépôt](https://github.com/hashicorp/vault)] | Audit | n.a. | - 1 vulnérabilité [identifiée](https://discuss.hashicorp.com/t/hcsec-2026-05-vault-kvv2-metadata-and-secret-deletion-policy-bypass-denial-of-service/77342)  ([CVE-2026-3605](https://www.cve.org/CVERecord?id=CVE-2026-3605)) et corrigée ([v2.0.0](https://github.com/hashicorp/vault/releases/tag/v2.0.0)) <br> - [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-hashicorp-vault/) et [Security assessment report](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) (CESTI [Almond](https://almond.eu/)) |
