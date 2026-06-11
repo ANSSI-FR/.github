@@ -8,45 +8,40 @@
 
 ---
 
-Les interfaces d’administration des applications Web constituent une augmentation significative de la surface d’attaque et doivent, à ce titre, faire l’objet d’une attention particulière **dès la phase de conception**. Elles exposent généralement des fonctionnalités à privilèges élevés et sont des cibles privilégiées pour les attaquants. Leur identification et leur sécurisation font d’ailleurs l’objet de recommandations spécifiques, notamment dans l’*OWASP Web Security Testing Guide* (WSTG-CONF-05) [^1].
+L’audit du produit HAProxy a mis en évidence **des limites dans l’utilisation des mécanismes de filtrage des URL qui s'appuient sur des listes de contrôle d’accès (ACL)**. En particulier, ces mécanismes peuvent être contournés en raison de différences de normalisation des requêtes HTTP et de techniques d’évasion telles que l’encodage, les variations de syntaxe ou encore les manipulations de chemins.
+Ces limitations ne constituent pas une vulnérabilité propre à HAProxy, mais résultent du détournement d'un composant de répartition de charge pour implémenter un mécanisme de sécurité applicative. En effet, HAProxy n’a pas vocation à fournir des fonctions avancées de détection d’attaques applicatives et ne garantit pas une interprétation normalisée des requêtes équivalente à celle des applications en aval.
+En conséquence, il est recommandé de **renforcer ce filtrage applicatif** ou **de mettre en oeuvre un pare-feu applicatif**.
 
-La question de isolation des interfaces d'administration vis-à-vis du reste de l’application doit être **traitée par défaut** (*security by design*). Cette isolation peut être mise en œuvre selon plusieurs approches complémentaires :
+### Renforcer le filtrage applicatif
 
-- **Une isolation logique**, où l’interface d’administration est intégrée à l’application mais protégée par des mécanismes de sécurité renforcés : authentification forte [^2], contrôles d’accès stricts (RBAC ou ABAC), journalisation des actions [^3], supervision des activités suspectes [^4], etc.  
-- **Une isolation physique ou par l’infrastructure**, reposant sur une séparation des composants (serveurs, réseaux…) et un accès restreint à l’interface d’administration. Cette approche peut inclure l’utilisation de réseaux dédiés, de bastions d’administration ou de mécanismes de filtrage d’adresses IP, conformément notamment aux recommandations de l’ANSSI [^5].
+De façon générale, il est nécessaire de garantir une cohérence stricte entre tous les composants de la chaîne de traitement (reverse proxy, WAF, serveur web, application, etc.) quant à l’interprétation des données non maîtrisées. À titre d’exemple, une URL telle que `/log%69n` doit être normalisée et interprétée de manière identique par tous les éléments intermédiaires, sans quoi des divergences de traitement peuvent introduire des possibilités de contournement. Dans le cas spécifique de HAProxy, l'utilisation de la directive `http-request normalize-uri` permet de normaliser les URI selon une représentation canonique avant l’application des règles de filtrage[^1]. L’usage de ce mécanisme permet de réduire significativement (pas totalement) les ambiguïtés liées aux encodages et aux variations syntaxiques, sous réserve d’une configuration cohérente avec les autres composants de l’architecture.
+
+
+On notera toutefois que les mécanismes de filtrage au niveau d’un serveur mandataire inverse présentent des limitations :
+1. Les mécanismes de filtrage basés sur des **listes de blocage (*blocklist*)** sont **intrinsèquement fragiles**, car ils reposent sur une énumération exhaustive des cas à bloquer. Ils sont particulièrement sensibles aux techniques de contournement liées aux différences de normalisation des requêtes HTTP (p. ex. encodage URL, double encodage, variations de syntaxe, manipulation de chemins, etc.).
+1. Les approches par **liste d’autorisation (*allowlist*)** sont plus robustes en théorie, **mais restent complexes à mettre en œuvre correctement**, surtout dans un contexte applicatif riche. Elles nécessitent une parfaite maîtrise des flux légitimes et peuvent être contournées en cas d’**incohérences de normalisation des requêtes entre les différents composants de la chaîne** (*reverse proxy*, serveur Web, application).
+
+
+### Mettre en oeuvre un pare-feu applicatif (*Web Application Firewall* ou WAF)
+
+Dans une logique de **défense en profondeur**, il est recommandé de **ne pas faire reposer la sécurité sur un seul composant ou une seule couche**. La séparation des responsabilités (p. ex. entre les fonctions de répartition de charge et de filtrage applicatif) peut contribuer à limiter l’impact d’un contournement ou d’une compromission. Dans ce contexte, l’ajout d’un pare-feu applicatif peut améliorer la détection de certaines attaques génériques (p. ex. *path traversal*, injections, contournements d’encodage), mais il est nécessaire de garder en tête qu'il demeure certaines limitations (p. ex. pas de protection contre les failles de logique métier ni contre l’exploitation de comptes légitimes compromis).
 
 ---
 
-Lorsque ces interfaces n’ont pas été correctement isolées dès la conception, il peut être tentant de s’appuyer sur des mécanismes de filtrage au niveau d’un serveur mandataire inverse (*reverse proxy*) pour en restreindre l’accès (p. ex. en bloquant certains chemins d’URL tels que `/admin`). Ce type d’approche présente toutefois des limites importantes.
+## Cas des interfaces d'administration
 
-Les mécanismes de filtrage basés sur des **listes de blocage (*blocklist*)** sont **intrinsèquement fragiles**, car ils reposent sur une énumération exhaustive des cas à bloquer. Ils sont particulièrement sensibles aux techniques de contournement liées aux différences de normalisation des requêtes HTTP (p. ex. encodage URL, double encodage, variations de syntaxe, manipulation de chemins, etc.).
 
-Les approches par **liste d’autorisation (*allowlist*)** sont plus robustes en théorie, **mais restent complexes à mettre en œuvre correctement**, surtout dans un contexte applicatif riche. Elles nécessitent une parfaite maîtrise des flux légitimes et peuvent être contournées en cas d’**incohérences de normalisation des requêtes entre les différents composants de la chaîne** (*reverse proxy*, serveur Web, application).
-
----
+Les interfaces d'administration exposent généralement des fonctionnalités à privilèges élevés et sont des cibles fréquentes pour les attaquants. Leur identification et leur sécurisation font d’ailleurs l’objet de recommandations spécifiques, notamment dans l’*OWASP Web Security Testing Guide* (WSTG-CONF-05) [^2]. L’utilisation de HAProxy pour réaliser un filtrage de sécurité critique, notamment pour restreindre l’accès à ces interfaces sensibles via des règles portant sur les chemins d’URL (p. ex. blocage de /admin) peut **s'avérer insuffisante et exposer à des risques de contournement**.
+Une approche plus mature consiste à isoler les interfaces d'administration. Plusieurs approches complémentaires sont envisageables :
+- **Une isolation logique**, où l’interface d’administration est intégrée à l’application mais protégée par des mécanismes de sécurité renforcés : authentification forte [^3], contrôles d’accès stricts (RBAC ou ABAC), journalisation des actions [^4], supervision des activités suspectes [^5], etc.  
+- **Une isolation physique ou par l’infrastructure**, reposant sur une séparation des composants (serveurs, réseaux…) et un accès restreint à l’interface d’administration. Cette approche peut inclure l’utilisation de réseaux dédiés, de bastions d’administration ou de mécanismes de filtrage d’adresses IP, conformément notamment aux recommandations de l’ANSSI [^6].
 
 Un serveur mandataire inverse, bien qu’il puisse contribuer à la sécurité globale (contrôle d’accès, terminaison TLS, authentification déportée), **ne constitue pas à lui seul un mécanisme de protection suffisant pour sécuriser une interface d’administration exposée**.
 
-L’ajout d’un pare-feu applicatif (*WAF*) permet d’améliorer la détection de certaines attaques génériques (p. ex. *path traversal*, injections, contournements d’encodage), mais ne protège pas contre les failles de logique métier ni contre l’exploitation de comptes légitimes compromis.
-
-Dans une logique de **défense en profondeur**, il est recommandé de **ne pas faire reposer la sécurité sur un seul composant ou une seule couche**. La séparation des responsabilités (p. ex. entre les fonctions de répartition de charge et de filtrage applicatif) peut contribuer à limiter l’impact d’un contournement ou d’une compromission. Toutefois, cette séparation doit être adaptée au contexte technique et aux contraintes opérationnelles, notamment dans des architectures modernes distribuées (p. ex. cloud, microservices). La **mutualisation** (hébergement de plusieurs fonctions dans le même composant ou processus - p. ex. *reverse proxy* et *WAF*) devient un problème quand elle casse l’**isolation**, c’est-à-dire la capacité à garantir qu’une fonction ne peut pas compromettre ou influencer une autre de manière non prévue.
-
 ---
-
-## Synthèse
-
-La sécurisation des interfaces d’administration doit prioritairement reposer sur :
-
-- leur **non-exposition directe** ;
-- une **authentification robuste** ;
-- un **contrôle d’accès fort** ;
-- une **segmentation réseau adaptée**.
-
-Les mécanismes de filtrage (*reverse proxy*, *WAF*) doivent être considérés comme des **mesures complémentaires** et non comme des solutions principales.
-
-
-[^1]: [WSTG - v4.2 | OWASP Foundation](https://owasp.org/www-project-web-security-testing-guide/)
-[^2]: [Recommandations relatives à l’authentification multifacteur et aux mots de passe | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/recommandations-relatives-lauthentification-multifacteur-et-aux-mots-de-passe)
-[^3]: [Recommandations de sécurité pour l’architecture d’un système de journalisation | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/recommandations-de-securite-pour-larchitecture-dun-systeme-de-journalisation)
-[^4]: [Les clés de décision | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/la-supervision-de-securite-les-cles-de-decision) et [Piloter un projet de supervision | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/la-supervision-de-securite-piloter-un-projet-de-supervision)
-[^5]: [Recommandations relatives à l’administration sécurisée des SI | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/recommandations-relatives-ladministration-securisee-des-si)
+[^1]: Attention : l’option `http-request normalize-uri` est une directive expérimentale (pour l'utiliser, il est nécessaire d'ajouter l'option `expose-experimental-directives` dans la section `global`du fichier de configuration). Il convient de maîtriser et tester cette option avant sa mise en oeuvre au sein d'un système d'information en production.
+[^2]: [WSTG - v4.2 | OWASP Foundation](https://owasp.org/www-project-web-security-testing-guide/)
+[^3]: [Recommandations relatives à l’authentification multifacteur et aux mots de passe | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/recommandations-relatives-lauthentification-multifacteur-et-aux-mots-de-passe)
+[^4]: [Recommandations de sécurité pour l’architecture d’un système de journalisation | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/recommandations-de-securite-pour-larchitecture-dun-systeme-de-journalisation)
+[^5]: [Les clés de décision | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/la-supervision-de-securite-les-cles-de-decision) et [Piloter un projet de supervision | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/la-supervision-de-securite-piloter-un-projet-de-supervision)
+[^6]: [Recommandations relatives à l’administration sécurisée des SI | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/recommandations-relatives-ladministration-securisee-des-si)
