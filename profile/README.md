@@ -33,7 +33,7 @@ Linux](https://cyber.gouv.fr/sites/default/files/document/linux_configuration-en
 d'un rapport technique d'évaluation de la sécurité du produit 
 [Multi Layer Archive](https://github.com/ANSSI-FR/MLA) (MLA) suite à une analyse conduite par
 le CESTI [Synacktiv](https://www.synacktiv.com/). *--> Plus d'informations sur les [évaluations de 
-sécurité](evaluations.md) financées par l'ANSSI.*
+sécurité](evaluations) financées par l'ANSSI.*
 
 ### 18/02/2026 : Publication de la bibliographie ANSSI
 
