@@ -12,6 +12,12 @@ ANSSI open source strategy is detailed on the
 
 ## News
 
+### 21/05/2026: Publication of ANSSI open source policy
+
+The English version of the [ANSSI open source
+policy](https://cyber.gouv.fr/en/technological-and-cybersecurity-challenges/open-source/)
+has been published on the website.
+
 ### 21/05/2026: Publication of forensic utility DFIR-OGRE
 
 [DFIR-OGRE](https://github.com/ANSSI-FR/DFIR-OGRE) is a command‑line utility
