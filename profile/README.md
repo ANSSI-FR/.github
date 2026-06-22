@@ -13,12 +13,29 @@ internet](https://cyber.gouv.fr/open-source-lanssi)
 
 ## Actualités
 
+### 26/05/2026 : Publication d'un rapport d'évaluation du produit HAProxy
+
+[Publication](https://almond.eu/wp-content/uploads/PUBLIC-TAR-HAProxy-1.00-Almond.pdf) 
+d'un rapport technique d'évaluation de la sécurité du produit 
+[HAProxy](https://github.com/haproxy/haproxy) suite à une analyse conduite par
+le CESTI [Almond](https://almond.eu/). *--> Plus d'informations sur les [évaluations de 
+sécurité](evaluations) financées par l'ANSSI.*
+
+
 ### 21/05/2026 : Publication d'outils forensic DFIR-OGRE
 
 L'ANSSI a mis en ligne [DFIR-OGRE](https://github.com/ANSSI-FR/DFIR-OGRE), un
 outil permettant d'extraire les artefacts Windows d'une archive
 [DFIR-ORC](https://github.com/DFIR-ORC/DFIR-ORC) et de les injecter dans une
-base de donnée comme Splunk ou ELK.
+base de données comme Splunk ou ELK.
+
+### 06/05/2026 : Publication d'un rapport d'évaluation du produit Vault
+
+[Publication](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) 
+d'un rapport technique d'évaluation de la sécurité du produit 
+[Vault](https://github.com/hashicorp/vault) suite à une analyse conduite par
+le CESTI [Almond](https://almond.eu/). *--> Plus d'informations sur les [évaluations de 
+sécurité](evaluations) financées par l'ANSSI.*
 
 ### 17/03/2026 : Publication d'outils d'aide au durcissement de configuration Linux
 
