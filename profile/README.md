@@ -13,6 +13,12 @@ internet](https://cyber.gouv.fr/open-source-lanssi)
 
 ## Actualités
 
+### 26/06/2026: Publication du projet Dalton
+
+[Publication](https://github.com/ANSSI-FR/dalton) du projet Dalton, démarche
+d’amélioration cyber, thématique et progressive visant à recenser et organiser
+les mesures techniques permettant d’améliorer la sécurité des SI.
+
 ### 26/05/2026 : Publication d'un rapport d'évaluation du produit HAProxy
 
 [Publication](https://almond.eu/wp-content/uploads/PUBLIC-TAR-HAProxy-1.00-Almond.pdf) 
@@ -36,13 +42,6 @@ d'un rapport technique d'évaluation de la sécurité du produit
 [Vault](https://github.com/hashicorp/vault) suite à une analyse conduite par
 le CESTI [Almond](https://almond.eu/). *--> Plus d'informations sur les [évaluations de 
 sécurité](evaluations) financées par l'ANSSI.*
-
-### 17/03/2026 : Publication d'outils d'aide au durcissement de configuration Linux
-
-L'ANSSI a
-publié [actionnable-linux](https://github.com/ansSI-FR/actionnable-linux), un
-rôle Ansible déclinant les recommandations du [guide de durcissement
-Linux](https://cyber.gouv.fr/sites/default/files/document/linux_configuration-en-v2.pdf).
 
 ### Anciennes actualités
 

@@ -5,6 +5,13 @@ l'ANSSI.
 
 ## 2026
 
+### 17/03/2026 : Publication d'outils d'aide au durcissement de configuration Linux
+
+L'ANSSI a
+publié [actionnable-linux](https://github.com/ansSI-FR/actionnable-linux), un
+rôle Ansible déclinant les recommandations du [guide de durcissement
+Linux](https://cyber.gouv.fr/sites/default/files/document/linux_configuration-en-v2.pdf).
+
 ### 20/02/2026 : Publication d'un rapport d'évaluation du produit MLA
 
 [Publication](https://github.com/ANSSI-FR/MLA/blob/main/doc/20260130-mla-security-assessment.pdf) 
