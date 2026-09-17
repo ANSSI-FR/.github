@@ -27,6 +27,9 @@ de sécurité d'un logiciel open source particulier. Elles viennent compléter l
 sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/documents-guides/anssi_essentiels_selection_logiciel_libre_1.0.pdf),
 [EN](https://messervices.cyber.gouv.fr/documents-guides/anssi_back%20to%20basics_select_open_source_software.pdf)].
 
+Les logiciels évalués par l’ANSSI et [recommandés pour un usage interministériel au sein de l’administration française](https://code.gouv.fr/sill/list?attributeNames=%5B%22isRecommandedByIntermin%22%5D),
+dans le cadre du [Socle interministériel de logiciels libres](https://code.gouv.fr/sill) (SILL), sont identifiés dans le tableau 
+ci-après par la mention **[SILL]**.
 
 
 | Année* | Logiciel | Type d’évaluation | Statut CSPN | Résultats |
@@ -44,9 +47,9 @@ sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/do
 | 2025 | **MLA** [[dépôt](https://github.com/ANSSI-FR/MLA)] | Audit | n.a. | [Security assessment report](https://github.com/ANSSI-FR/MLA/blob/main/doc/20260130-mla-security-assessment.pdf)  (CESTI [Synacktiv](https://www.synacktiv.com/))  |
 | 2025 | **fuzzysully** [[dépôt](https://github.com/ANSSI-FR/fuzzysully)] | n.a. | n.a. | Développement et publication par l'ANSSI d'un fuzzer OPC-UA.   |
 | 2024 | **CAS** [[dépôt](https://github.com/apereo/cas)] [[SILL](https://code.gouv.fr/sill/detail?name=Apereo%20CAS)] | Audit | n.a. | - 4 vulnérabilités [identifiées et corrigées](https://apereo.github.io/2025/04/11/oidc-webauthn-vuln/) <br> - [Blog-post](https://www.amossys.fr/insights/blog-technique/responsible-disclosure-of-vulnerabilities-found-on-apereo-cas/) (CESTI [Amossys](https://almond.eu/)) |
-| 2023 | **KeePassXC** [[dépôt](https://github.com/keepassxreboot/keepassxc)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) |  |
+| 2023 | **KeePassXC** [[dépôt](https://github.com/keepassxreboot/keepassxc)] [[SILL](https://code.gouv.fr/sill/detail?name=KeePassXC)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) |  |
 | 2023 | **WireGuard** [[dépôt](https://github.com/wireguard)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
-| 2023 | **Keycloak** [[dépôt](https://github.com/keycloak/keycloak)] [[SILL)](https://code.gouv.fr/sill/detail?name=Keycloak)] | Audit | n.a. |   |
+| 2023 | **Keycloak** [[dépôt](https://github.com/keycloak/keycloak)] [[SILL](https://code.gouv.fr/sill/detail?name=Keycloak)] | Audit | n.a. |   |
 | 2022 | **S2OPC** [[dépôt](https://github.com/monate/s2opc)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-14-certificat.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-14-rapport.pdf) |   |
 | 2022 | **OpenSSH** [[dépôt](https://github.com/openssh)] | Audit | n.a. |   |
 | 2022 | **nftables** [[web](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-certificat.pdf) <br> [Cible de sécurité](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-cible.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-rapport.pdf) |   |
