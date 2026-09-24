@@ -34,12 +34,12 @@ ci-après par la mention **[SILL]**.
 
 | Année* | Logiciel | Type d’évaluation | Statut CSPN | Résultats |
 | --- | --- | --- | --- | --- |
-| 2026 | **USBGuard** [[web](https://github.com/USBGuard/usbguard)] | Audit | n.a. | Phase de cadrage  |
-| 2026 | **Zabbix** [[web](https://www.zabbix.com/fr)] | Audit | n.a. | Phase de cadrage  |
-| 2026 | **OPNsense** [[web](https://opnsense.org/)] | Audit | n.a. | Phase de cadrage  |
-| 2026 | **tac_plus-ng** [[dépôt](https://github.com/christian-becker/tac_plus-ng)] | Audit | n.a. | Phase de cadrage  |
-| 2026 | **LemonLDAP::NG** [[web](https://lemonldap-ng.org/)] | Audit | n.a. | Phase de cadrage  |
-| 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Début de l'évaluation en mars 2026  |
+| 2026 | **Zabbix** [[web](https://www.zabbix.com/fr)] | Audit | n.a. | Début de l'évaluation : début janvier 2027  |
+| 2026 | **USBGuard** [[web](https://github.com/USBGuard/usbguard)] | Audit | n.a. | Début de l'évaluation : mi-décembre  |
+| 2026 | **OPNsense** [[web](https://opnsense.org/)] | Audit | n.a. | Début de l'évaluation : début décembre  |
+| 2026 | **tac_plus-ng** [[dépôt](https://github.com/christian-becker/tac_plus-ng)] | Audit | n.a. | Evaluation en cours  |
+| 2026 | **LemonLDAP::NG** [[web](https://lemonldap-ng.org/)] | Audit | n.a. | Evaluation en cours  |
+| 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Evaluation terminée. Analyse des résultats en cours.  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. |- [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-shibboleth/) et [Security assessment report](https://almond.eu/wp-content/uploads/TAR-PUBLIC-SHIBBOLETH-1.20.pdf) (CESTI [Almond](https://almond.eu/))  |
 | 2025 | **Vault** [[dépôt](https://github.com/hashicorp/vault)] | Audit | n.a. | - 1 vulnérabilité [identifiée](https://discuss.hashicorp.com/t/hcsec-2026-05-vault-kvv2-metadata-and-secret-deletion-policy-bypass-denial-of-service/77342)  ([CVE-2026-3605](https://www.cve.org/CVERecord?id=CVE-2026-3605)) et corrigée ([v2.0.0](https://github.com/hashicorp/vault/releases/tag/v2.0.0)) <br> - [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-hashicorp-vault/) et [Security assessment report](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) (CESTI [Almond](https://almond.eu/)) |
 | 2025 | **HAProxy** [[dépôt](https://github.com/haproxy/haproxy)] [[SILL](https://code.gouv.fr/sill/detail?name=HAProxy)] | Audit | n.a. | - Aucune vulnérabilité identifiée <br> - [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-haproxy/) et [Security assessment report](https://almond.eu/wp-content/uploads/PUBLIC-TAR-HAProxy-1.00-Almond.pdf) (CESTI [Almond](https://almond.eu/)) <br> - [Blog-post](https://www.haproxy.com/blog/haproxy-security-audit-results) ([HAProxy Technologies](https://www.haproxy.com/)) <br> - [Commentaires de l'ANSSI suite à cette évaluation](evaluations-HAProxy-info.md) |
