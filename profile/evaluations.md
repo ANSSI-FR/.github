@@ -37,7 +37,7 @@ ci-après par la mention **[SILL]**.
 | 2026 | **Zabbix** [[web](https://www.zabbix.com/fr)] | Audit | n.a. | Début de l'évaluation : début janvier 2027  |
 | 2026 | **USBGuard** [[web](https://github.com/USBGuard/usbguard)] | Audit | n.a. | Début de l'évaluation : mi-décembre  |
 | 2026 | **OPNsense** [[web](https://opnsense.org/)] | Audit | n.a. | Début de l'évaluation : début décembre  |
-| 2026 | **tac_plus-ng** [[dépôt](https://github.com/christian-becker/tac_plus-ng)] | Audit | n.a. | Evaluation en cours  |
+| 2026 | **tac_plus-ng** [[dépôt](https://github.com/MarcJHuber/event-driven-servers/)] | Audit | n.a. | Evaluation en cours  |
 | 2026 | **LemonLDAP::NG** [[web](https://lemonldap-ng.org/)] | Audit | n.a. | Evaluation en cours  |
 | 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Evaluation terminée. Analyse des résultats en cours.  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. |- [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-shibboleth/) et [Security assessment report](https://almond.eu/wp-content/uploads/TAR-PUBLIC-SHIBBOLETH-1.20.pdf) (CESTI [Almond](https://almond.eu/))  |
