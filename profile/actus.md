@@ -5,6 +5,14 @@ l'ANSSI.
 
 ## 2026
 
+### 06/05/2026 : Publication d'un rapport d'évaluation du produit Vault
+
+[Publication](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) 
+d'un rapport technique d'évaluation de la sécurité du produit 
+[Vault](https://github.com/hashicorp/vault) suite à une analyse conduite par
+le CESTI [Almond](https://almond.eu/). *--> Plus d'informations sur les [évaluations de 
+sécurité](evaluations) financées par l'ANSSI.*
+
 ### 17/03/2026 : Publication d'outils d'aide au durcissement de configuration Linux
 
 L'ANSSI a
