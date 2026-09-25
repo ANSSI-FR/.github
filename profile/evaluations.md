@@ -27,42 +27,45 @@ de sécurité d'un logiciel open source particulier. Elles viennent compléter l
 sélectionner un logiciel open source [[FR](https://messervices.cyber.gouv.fr/documents-guides/anssi_essentiels_selection_logiciel_libre_1.0.pdf),
 [EN](https://messervices.cyber.gouv.fr/documents-guides/anssi_back%20to%20basics_select_open_source_software.pdf)].
 
-Les logiciels évalués par l’ANSSI et [recommandés pour un usage interministériel au sein de l’administration française](https://code.gouv.fr/sill/list?attributeNames=%5B%22isRecommandedByIntermin%22%5D),
+Les logiciels évalués par l’ANSSI et [recommandés pour un usage interministériel au sein de l’administration française](https://code.gouv.fr/sill/list?attributeNames=%5B%22isRecommandedByIntermin%22%5D) [^1],
 dans le cadre du [Socle interministériel de logiciels libres](https://code.gouv.fr/sill) (SILL), sont identifiés dans le tableau 
-ci-après par la mention **[SILL]**.
+ci-après par la mention **[SILL-reco]**. Les logiciels présents dans le catalogue SILL mais non explicitement recommandés pour un usage interministériel 
+sont identifiés par la mention **[SILL]**
+
+[^1]: *Ou ayant vocation à être intégrés à cette liste.*
 
 
 | Année* | Logiciel | Type d’évaluation | Statut CSPN | Résultats |
 | --- | --- | --- | --- | --- |
-| 2026 | **Zabbix** [[web](https://www.zabbix.com/fr)] | Audit | n.a. | Début de l'évaluation : début janvier 2027  |
+| 2026 | **Zabbix** [[web](https://www.zabbix.com/fr)] [[SILL](https://code.gouv.fr/sill/detail?name=Zabbix)]  | Audit | n.a. | Début de l'évaluation : début janvier 2027  |
 | 2026 | **USBGuard** [[web](https://github.com/USBGuard/usbguard)] | Audit | n.a. | Début de l'évaluation : mi-décembre  |
-| 2026 | **OPNsense** [[web](https://opnsense.org/)] | Audit | n.a. | Début de l'évaluation : début décembre  |
+| 2026 | **OPNsense** [[web](https://opnsense.org/)] [[SILL](https://code.gouv.fr/sill/detail?name=Opnsense)]  | Audit | n.a. | Début de l'évaluation : début décembre  |
 | 2026 | **tac_plus-ng** [[dépôt](https://github.com/MarcJHuber/event-driven-servers/)] | Audit | n.a. | Evaluation en cours  |
-| 2026 | **LemonLDAP::NG** [[web](https://lemonldap-ng.org/)] | Audit | n.a. | Evaluation en cours  |
+| 2026 | **LemonLDAP::NG** [[web](https://lemonldap-ng.org/)] [[SILL-reco](https://code.gouv.fr/sill/detail?name=LemonLDAP::NG)] | Audit | n.a. | Evaluation en cours  |
 | 2025 | **Sentry** [[dépôt](https://camelot-os.h2lab.org/)] | CSPN | n.a. | Evaluation terminée. Analyse des résultats en cours.  |
 | 2025 | **Shibboleth** [[web](https://www.shibboleth.net/)] | Audit | n.a. |- [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-shibboleth/) et [Security assessment report](https://almond.eu/wp-content/uploads/TAR-PUBLIC-SHIBBOLETH-1.20.pdf) (CESTI [Almond](https://almond.eu/))  |
 | 2025 | **Vault** [[dépôt](https://github.com/hashicorp/vault)] | Audit | n.a. | - 1 vulnérabilité [identifiée](https://discuss.hashicorp.com/t/hcsec-2026-05-vault-kvv2-metadata-and-secret-deletion-policy-bypass-denial-of-service/77342)  ([CVE-2026-3605](https://www.cve.org/CVERecord?id=CVE-2026-3605)) et corrigée ([v2.0.0](https://github.com/hashicorp/vault/releases/tag/v2.0.0)) <br> - [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-hashicorp-vault/) et [Security assessment report](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) (CESTI [Almond](https://almond.eu/)) |
-| 2025 | **HAProxy** [[dépôt](https://github.com/haproxy/haproxy)] [[SILL](https://code.gouv.fr/sill/detail?name=HAProxy)] | Audit | n.a. | - Aucune vulnérabilité identifiée <br> - [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-haproxy/) et [Security assessment report](https://almond.eu/wp-content/uploads/PUBLIC-TAR-HAProxy-1.00-Almond.pdf) (CESTI [Almond](https://almond.eu/)) <br> - [Blog-post](https://www.haproxy.com/blog/haproxy-security-audit-results) ([HAProxy Technologies](https://www.haproxy.com/)) <br> - [Commentaires de l'ANSSI suite à cette évaluation](evaluations-HAProxy-info.md) |
+| 2025 | **HAProxy** [[dépôt](https://github.com/haproxy/haproxy)] [[SILL-reco](https://code.gouv.fr/sill/detail?name=HAProxy)] | Audit | n.a. | - Aucune vulnérabilité identifiée <br> - [Blog-post](https://almond.eu/cybersecurity-insights/publication-of-a-security-audit-report-performed-on-haproxy/) et [Security assessment report](https://almond.eu/wp-content/uploads/PUBLIC-TAR-HAProxy-1.00-Almond.pdf) (CESTI [Almond](https://almond.eu/)) <br> - [Blog-post](https://www.haproxy.com/blog/haproxy-security-audit-results) ([HAProxy Technologies](https://www.haproxy.com/)) <br> - [Commentaires de l'ANSSI suite à cette évaluation](evaluations-HAProxy-info.md) |
 | 2025 | **step-ca** [[dépôt](https://github.com/smallstep/certificates)] | Audit | n.a. | - 1 vulnérabilité [identifiée](https://github.com/smallstep/certificates/security/advisories/GHSA-j7c9-79x7-8hpr)  ([CVE-2025-66406](https://nvd.nist.gov/vuln/detail/CVE-2025-66406)) et corrigée ([v0.29.0](https://github.com/smallstep/certificates/releases/tag/v0.29.0)) <br> - [Blog-post](https://www.amossys.fr/insights/blog-technique/cve-2025-66406-arbitrary-ssh-certificate-revocation-on-step-ca/) (CESTI [Amossys](https://almond.eu/))|
 | 2025 | **MLA** [[dépôt](https://github.com/ANSSI-FR/MLA)] | Audit | n.a. | [Security assessment report](https://github.com/ANSSI-FR/MLA/blob/main/doc/20260130-mla-security-assessment.pdf)  (CESTI [Synacktiv](https://www.synacktiv.com/))  |
 | 2025 | **fuzzysully** [[dépôt](https://github.com/ANSSI-FR/fuzzysully)] | n.a. | n.a. | Développement et publication par l'ANSSI d'un fuzzer OPC-UA.   |
 | 2024 | **CAS** [[dépôt](https://github.com/apereo/cas)] [[SILL](https://code.gouv.fr/sill/detail?name=Apereo%20CAS)] | Audit | n.a. | - 4 vulnérabilités [identifiées et corrigées](https://apereo.github.io/2025/04/11/oidc-webauthn-vuln/) <br> - [Blog-post](https://www.amossys.fr/insights/blog-technique/responsible-disclosure-of-vulnerabilities-found-on-apereo-cas/) (CESTI [Amossys](https://almond.eu/)) |
-| 2023 | **KeePassXC** [[dépôt](https://github.com/keepassxreboot/keepassxc)] [[SILL](https://code.gouv.fr/sill/detail?name=KeePassXC)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) |  |
-| 2023 | **WireGuard** [[dépôt](https://github.com/wireguard)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
-| 2023 | **Keycloak** [[dépôt](https://github.com/keycloak/keycloak)] [[SILL](https://code.gouv.fr/sill/detail?name=Keycloak)] | Audit | n.a. |   |
+| 2023 | **KeePassXC** [[dépôt](https://github.com/keepassxreboot/keepassxc)] [[SILL-reco](https://code.gouv.fr/sill/detail?name=KeePassXC)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2025-16-rapport.pdf) |  |
+| 2023 | **WireGuard** [[dépôt](https://github.com/wireguard)] [[SILL](https://code.gouv.fr/sill/detail?name=WireGuard)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
+| 2023 | **Keycloak** [[dépôt](https://github.com/keycloak/keycloak)] [[SILL-reco](https://code.gouv.fr/sill/detail?name=Keycloak)] | Audit | n.a. |   |
 | 2022 | **S2OPC** [[dépôt](https://github.com/monate/s2opc)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-14-certificat.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-14-rapport.pdf) |   |
-| 2022 | **OpenSSH** [[dépôt](https://github.com/openssh)] | Audit | n.a. |   |
+| 2022 | **OpenSSH** [[dépôt](https://github.com/openssh)] [[SILL](https://code.gouv.fr/sill/detail?name=OpenSSH)] | Audit | n.a. |   |
 | 2022 | **nftables** [[web](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-certificat.pdf) <br> [Cible de sécurité](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-cible.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2024-02-rapport.pdf) |   |
 | 2022 | **cert-manager** [[dépôt](https://github.com/cert-manager/cert-manager)] | CSPN | ⚠️ Abandon |   |
 | 2021 | **Sudo** [[dépôt](https://github.com/sudo-project/sudo)] | CSPN | ❌ Pas de certificat à l’issue du processus | 1 vulnérabilité identifiée ([CVE-2026-3605](https://www.cve.org/CVERecord?id=CVE-2026-3605), [CERTFR-2023-AVI-0043](https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0043/)) et corrigée ([1.9.12p2](https://www.sudo.ws/getting/download/))   |
 | 2021 | **Belenios** [[dépôt](https://github.com/glondu/belenios)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2021 | **Secretin** [[dépôt](https://github.com/secretin/secretin-app)] | CSPN | ❌ Pas de certificat à l’issue du processus | [Security assessment report](https://github.com/secretin/secretin-server/wiki/Lexfo-CSPN-report-requested-by-ANSSI) (CESTI [Lexfo](https://lexfo.fr/)) |
-| 2021 | **KeePass** [[SILL](https://code.gouv.fr/sill/detail?name=KeePass)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
-| 2019 | **S20PC** [[dépôt](https://github.com/monate/s2opc)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
+| 2021 | **KeePass**  [[web](https://sourceforge.net/projects/keepass/)] [[SILL](https://code.gouv.fr/sill/detail?name=KeePass)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
+| 2019 | **S20PC** [[dépôt](https://github.com/monate/s2opc)] **[SILL-reco]** | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2019 | **strongSwan** [[dépôt](https://github.com/strongswan/strongswan)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
-| 2018 | **KeePass 2.5** [[SILL](https://code.gouv.fr/sill/detail?name=KeePass)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
+| 2018 | **KeePass** [[web](https://sourceforge.net/projects/keepass/)] [[SILL](https://code.gouv.fr/sill/detail?name=KeePass)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2018 | **E2Guardian** [[dépôt](https://github.com/e2guardian/e2guardian)] | CSPN | ✅ |   |
-| 2018 | **Suricata v6.0.8** [[dépôt](https://github.com/OISF/suricata)] | CSPN | ✅[Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-02-certificat.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-02-rapport.pdf) |   |
+| 2018 | **Suricata** [[dépôt](https://github.com/OISF/suricata)] | CSPN | ✅[Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-02-certificat.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2023-02-rapport.pdf) |   |
 | 2018 | **Ansible** [[dépôt](https://github.com/ansible/ansible)] [[SILL](https://code.gouv.fr/sill/detail?name=Ansible)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2018 | **Keystone** [[dépôt](https://github.com/openstack/keystone)] | CSPN | ❌ Pas de certificat à l’issue du processus |   |
 | 2018 | **Barbican** [[dépôt](https://github.com/openstack/barbican)] | CSPN | ✅ [Certificat](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2022-02-certificat.pdf) <br> [Rapport certification](https://messervices.cyber.gouv.fr/visas/ANSSI-CSPN-2022-02-rapport.pdf) |   |

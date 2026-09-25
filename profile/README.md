@@ -13,6 +13,14 @@ internet](https://cyber.gouv.fr/open-source-lanssi)
 
 ## Actualités
 
+### 24/09/2026 : Publication d'un rapport d'évaluation du produit shibboleth
+
+[Publication](https://almond.eu/wp-content/uploads/TAR-PUBLIC-SHIBBOLETH-1.20.pdf) 
+d'un rapport technique d'évaluation de la sécurité du produit 
+[shibboleth](https://www.shibboleth.net/) suite à une analyse conduite par
+le CESTI [Almond](https://almond.eu/). *--> Plus d'informations sur les [évaluations de 
+sécurité](evaluations) financées par l'ANSSI.*
+
 ### 26/06/2026: Publication du projet Dalton
 
 [Publication](https://github.com/ANSSI-FR/dalton) du projet Dalton, démarche
@@ -34,14 +42,6 @@ L'ANSSI a mis en ligne [DFIR-OGRE](https://github.com/ANSSI-FR/DFIR-OGRE), un
 outil permettant d'extraire les artefacts Windows d'une archive
 [DFIR-ORC](https://github.com/DFIR-ORC/DFIR-ORC) et de les injecter dans une
 base de données comme Splunk ou ELK.
-
-### 06/05/2026 : Publication d'un rapport d'évaluation du produit Vault
-
-[Publication](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) 
-d'un rapport technique d'évaluation de la sécurité du produit 
-[Vault](https://github.com/hashicorp/vault) suite à une analyse conduite par
-le CESTI [Almond](https://almond.eu/). *--> Plus d'informations sur les [évaluations de 
-sécurité](evaluations) financées par l'ANSSI.*
 
 ### Anciennes actualités
 
