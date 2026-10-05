@@ -5,6 +5,13 @@ l'ANSSI.
 
 ## 2026
 
+### 21/05/2026 : Publication d'outils forensic DFIR-OGRE
+
+L'ANSSI a mis en ligne [DFIR-OGRE](https://github.com/ANSSI-FR/DFIR-OGRE), un
+outil permettant d'extraire les artefacts Windows d'une archive
+[DFIR-ORC](https://github.com/DFIR-ORC/DFIR-ORC) et de les injecter dans une
+base de données comme Splunk ou ELK.
+
 ### 06/05/2026 : Publication d'un rapport d'évaluation du produit Vault
 
 [Publication](https://almond.eu/wp-content/uploads/ETR-PUBLIC-Vault.pdf) 
